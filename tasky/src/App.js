@@ -79,9 +79,13 @@ function App() {
           deleteTask = {() => deleteHandler(index)}
         />
       ))}
+<<<<<<< HEAD
       <AddTaskForm change={formChangeHandler} />
       <AddTaskForm submit={formSubmitHandler} change={formChangeHandler} />
       console.log(formState);
+=======
+      <AddTaskForm submit={formSubmitHandler} change={formChangeHandler} />
+>>>>>>> new-branch-name
     </div>
   );
 }
